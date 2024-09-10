@@ -1,0 +1,10 @@
+h1{
+    color: aqua;
+    text-align: center;
+    font-size: large;
+    
+}
+body{
+    width: 500px;
+    height: max-content;
+}
