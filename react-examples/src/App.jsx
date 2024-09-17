@@ -9,6 +9,9 @@ import OnClick from './OnClick';
 import Doubleclickexample from './Doubleclickexample';
 import Resize from './Resize';
 import FormExample from './FormExample';
+import SampleArray from './SampleArray';
+import PeopleList from './PeopleList';
+
 
 
 function App() {
@@ -23,6 +26,10 @@ function App() {
       <Doubleclickexample />
       <Resize />
       <FormExample />
+      <SampleArray />
+      <PeopleList />
+    
+
       
     </div>
   );
