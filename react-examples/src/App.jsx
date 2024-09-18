@@ -11,6 +11,8 @@ import Resize from './Resize';
 import FormExample from './FormExample';
 import SampleArray from './SampleArray';
 import PeopleList from './PeopleList';
+import TempLit from './TempLit';
+import UserPage from './UserPage';
 
 
 
@@ -28,6 +30,8 @@ function App() {
       <FormExample />
       <SampleArray />
       <PeopleList />
+      <TempLit />
+      <UserPage />
     
 
       
