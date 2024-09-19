@@ -13,6 +13,8 @@ import SampleArray from './SampleArray';
 import PeopleList from './PeopleList';
 import TempLit from './TempLit';
 import UserPage from './UserPage';
+import Circuit from './Circuit';
+import SpreadOp from './SpreadOp';
 
 
 
@@ -32,6 +34,8 @@ function App() {
       <PeopleList />
       <TempLit />
       <UserPage />
+      <Circuit />
+      <SpreadOp />
     
 
       
@@ -40,3 +44,5 @@ function App() {
 }
 
 export default App;
+
+
