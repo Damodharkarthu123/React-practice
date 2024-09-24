@@ -1,5 +1,7 @@
 
 
+
+
 import { type } from '@testing-library/user-event/dist/type'
 import React, {useReducer, useEffect}from 'react'
 
@@ -31,7 +33,7 @@ const dataReducer=(state,action)=>{
     }
 
 }
-const MultiState = () => {
+const MultiSt = () => {
     const [state,dispatch]=useReducer(dataReducer,initalState)
     const dataHandler =async()=>{
        try {
@@ -72,4 +74,4 @@ const MultiState = () => {
   );
 };
 
-export default MultiState
+export default MultiSt
