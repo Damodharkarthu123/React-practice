@@ -16,7 +16,7 @@ import UserPage from './UserPage';
 import Circuit from './Circuit';
 import SpreadOp from './SpreadOp';
 import MultiSt from './MultiSt';
-import Support from './Support';
+import Super from './Super';
 
 
 
@@ -39,7 +39,7 @@ function App() {
       <Circuit />
       <SpreadOp />
       <MultiSt />
-      <Support />
+      <Super />
 
     
 
