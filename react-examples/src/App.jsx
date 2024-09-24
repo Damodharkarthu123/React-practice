@@ -15,6 +15,7 @@ import TempLit from './TempLit';
 import UserPage from './UserPage';
 import Circuit from './Circuit';
 import SpreadOp from './SpreadOp';
+import MultiState from './MultiState';
 
 
 
@@ -36,6 +37,7 @@ function App() {
       <UserPage />
       <Circuit />
       <SpreadOp />
+      <MultiState />
     
 
       
