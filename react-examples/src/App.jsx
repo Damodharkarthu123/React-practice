@@ -17,14 +17,25 @@ import Circuit from './Circuit';
 import SpreadOp from './SpreadOp';
 import MultiSt from './MultiSt';
 import Super from './Super';
-
-
+import Firstpage from './routing/Firstpage';
+import Secondpage from './routing/Secondpage';
+import Thirdpage from './routing/ Thirdpage';
+import Fourthpage from './routing/Fourthpage';
+import { Routes,Route } from 'react-router-dom';
+import Navbar from './Navbar';
 
 function App() {
   const [sampleCondition, setsampleCondition] = useState(true)
   return (
     <div className="App">
-      welcome to react
+      welcome to React
+      <Navbar />
+      <Routes>
+        <Route path='/abc' element = {<Firstpage />}/>
+        <Route path="/abcd" element ={<Secondpage />}/>
+        <Route path="/ab" element ={<Thirdpage />}/>
+        <Route path="/a" element={<Fourthpage />}/>
+      </Routes>
       <Intern />
       <Sample />
       <h1> Hello react<br/>{  sampleCondition? <Fourthcomp />: "i am  false statement"  }</h1>
@@ -40,6 +51,10 @@ function App() {
       <SpreadOp />
       <MultiSt />
       <Super />
+      <Firstpage />
+      <Secondpage />
+      <Thirdpage />
+      <Fourthpage />
 
     
 
