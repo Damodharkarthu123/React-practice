@@ -23,11 +23,19 @@ import Thirdpage from './routing/ Thirdpage';
 import Fourthpage from './routing/Fourthpage';
 import { Routes,Route } from 'react-router-dom';
 import Navbar from './Navbar';
+import Delhi from './Container/Delhi'
+import { GiftProvider } from './context/ExampleContext';
 
 function App() {
+  const gift ="Apple"
   const [sampleCondition, setsampleCondition] = useState(true)
   return (
     <div className="App">
+      <h2>sending gift to bangalore</h2>
+     
+      
+      <Delhi gift={gift}/> 
+      
       welcome to React
       <Navbar />
       <Routes>
